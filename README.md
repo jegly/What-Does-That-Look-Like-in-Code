@@ -15,6 +15,12 @@
 
 Type words. Get code. It's like magic but dumber. 
 
+
+<p align="center">
+  <img src="https://github.com/globalcve/What-Does-That-Look-Like-in-Code/blob/main/what_is_that.png" alt="WDLIC Screenshot" width="1500"/>
+</p>
+
+
 ---
 
 ##  INSTALLATION
