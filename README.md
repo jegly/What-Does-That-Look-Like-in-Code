@@ -11,8 +11,6 @@
 
 
 
-**BOOM.** That's WDLIC.
-
 Type words. Get code. It's like magic but dumber. 
 
 
