@@ -6,6 +6,7 @@ from dataclasses import dataclass, field
 from typing import List, Dict, Any, Optional
 
 # Keyword maps for heuristic enrichment
+
 BELIEF_KEYWORDS = {"belief", "faith", "religion", "indoctrination", "upbringing", "schooling"}
 IDENTITY_KEYWORDS = {"self", "identity", "perception", "fragmented", "stable", "awareness"}
 MORALITY_KEYWORDS = {"justice", "fairness", "forgiveness", "dilemma", "moral", "immoral", "law"}
@@ -14,6 +15,34 @@ PSYCHOLOGY_KEYWORDS = {"fear", "anxiety", "impulse", "coping", "resilience", "st
 SOCIAL_KEYWORDS = {"empathy", "trust", "group", "hierarchy", "validation", "status", "conformity", "social", "proof"}
 PHYSICS_KEYWORDS = {"spin", "gravity", "force", "mass", "velocity", "acceleration", "momentum", "energy", "field", "rotation", "torque"}
 MATH_KEYWORDS = {"proof", "optimize", "minimize", "probability", "equation", "function", "derivative", "integral", "sum"}
+
+# Expanded domains
+TECHNOLOGY_KEYWORDS = {"algorithm", "data", "network", "cloud", "AI", "machine", "learning", "automation", "robotics", "cybersecurity"}
+BIOLOGY_KEYWORDS = {"cell", "gene", "DNA", "RNA", "protein", "enzyme", "mutation", "evolution", "species", "ecosystem"}
+CHEMISTRY_KEYWORDS = {"atom", "molecule", "reaction", "bond", "compound", "acid", "base", "catalyst", "solution", "oxidation"}
+MEDICINE_KEYWORDS = {"diagnosis", "therapy", "surgery", "vaccine", "infection", "immune", "symptom", "treatment", "rehabilitation", "prevention"}
+NEUROSCIENCE_KEYWORDS = {"neuron", "synapse", "cortex", "dopamine", "memory", "plasticity", "signal", "brain", "consciousness", "cognition"}
+LINGUISTICS_KEYWORDS = {"syntax", "semantics", "phonetics", "morphology", "grammar", "dialect", "language", "translation", "discourse", "pragmatics"}
+ART_KEYWORDS = {"painting", "sculpture", "music", "dance", "literature", "poetry", "theater", "cinema", "design", "aesthetics"}
+HISTORY_KEYWORDS = {"ancient", "medieval", "renaissance", "revolution", "empire", "colonial", "industrial", "modern", "war", "civilization"}
+GEOGRAPHY_KEYWORDS = {"continent", "country", "city", "mountain", "river", "climate", "map", "region", "territory", "landscape"}
+POLITICS_KEYWORDS = {"government", "policy", "democracy", "dictatorship", "election", "constitution", "rights", "freedom", "authority", "power"}
+ECONOMICS_KEYWORDS = {"market", "trade", "currency", "inflation", "investment", "capital", "labor", "production", "consumption", "growth"}
+BUSINESS_KEYWORDS = {"management", "strategy", "leadership", "innovation", "startup", "entrepreneurship", "finance", "marketing", "sales", "operations"}
+EDUCATION_KEYWORDS = {"learning", "teaching", "curriculum", "assessment", "student", "teacher", "school", "university", "knowledge", "pedagogy"}
+ENVIRONMENT_KEYWORDS = {"climate", "sustainability", "pollution", "conservation", "biodiversity", "renewable", "ecosystem", "carbon", "green", "recycling"}
+LAW_KEYWORDS = {"contract", "court", "judge", "jury", "legislation", "regulation", "crime", "justice", "rights", "liability"}
+ETHICS_KEYWORDS = {"virtue", "duty", "responsibility", "honesty", "integrity", "fairness", "respect", "values", "principles", "morality"}
+MYTHOLOGY_KEYWORDS = {"hero", "legend", "myth", "god", "goddess", "pantheon", "ritual", "sacrifice", "prophecy", "symbol"}
+ASTRONOMY_KEYWORDS = {"planet", "star", "galaxy", "universe", "orbit", "cosmos", "blackhole", "nebula", "comet", "asteroid"}
+ENGINEERING_KEYWORDS = {"design", "structure", "mechanical", "electrical", "civil", "aerospace", "chemical", "software", "system", "process"}
+SPORTS_KEYWORDS = {"team", "player", "coach", "game", "match", "tournament", "score", "goal", "victory", "competition"}
+MUSIC_KEYWORDS = {"melody", "harmony", "rhythm", "tempo", "instrument", "composition", "performance", "song", "genre", "lyrics"}
+FOOD_KEYWORDS = {"cuisine", "recipe", "ingredient", "dish", "meal", "flavor", "taste", "nutrition", "diet", "cooking"}
+TRAVEL_KEYWORDS = {"journey", "trip", "destination", "adventure", "exploration", "tourism", "vacation", "map", "guide", "culture"}
+PSYCHOTHERAPY_KEYWORDS = {"counseling", "therapy", "psychoanalysis", "CBT", "mindfulness", "support", "healing", "trauma", "growth", "intervention"}
+AI_KEYWORDS = {"neural", "deep", "learning", "model", "training", "dataset", "inference", "optimization", "pattern", "recognition"}
+SECURITY_KEYWORDS = {"vulnerability", "exploit", "attack", "defense", "firewall", "encryption", "authentication", "authorization", "malware", "phishing"}
 
 @dataclass
 class ParsedFeatures:
