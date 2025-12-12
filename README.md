@@ -1,4 +1,4 @@
-#   What Does That Look Like in Code
+#   What Does That Look Like in Code ?
 
 ### 
 
@@ -15,7 +15,7 @@ Type words. Get code. It's like magic but dumber.
 
 
 <p align="center">
-  <img src="https://github.com/globalcve/What-Does-That-Look-Like-in-Code/blob/main/what_is_that.png" alt="WDLIC Screenshot" width="1500"/>
+  <img src="https://github.com/jegly/What-Does-That-Look-Like-in-Code/blob/main/what_is_that.png" alt="WDLIC Screenshot" width="1500"/>
 </p>
 
 
@@ -34,7 +34,7 @@ error: externally-managed-environment
 # You: "WHAT"
 ```
 
-### Step 2: Actually Install It (The Real Way™)
+### Step 2: Actually Install It (The Real Way)
 
 ```bash
 # Install the venv thingy (because apparently Python is too cool for regular installs now)
@@ -216,7 +216,7 @@ source venv/bin/activate
 | **Physics** | Things falling, moving, breaking | "A watermelon explodes when dropped" |
 | **Math** | Numbers, optimization, equations | "Find the maximum number of cookies I can eat" |
 | **Social** | Groups, drama, opinions | "Friend group splits over pineapple on pizza debate" |
-| **Generic** | When WDLIC is confused | "water" ← you did this to yourself |
+| **Generic** | When WDLIC is confused | "water" ← why is water wet (don't try that) |
 
 ---
 
@@ -289,7 +289,7 @@ It's not good for:
 - Procrastinating on actual work
 - Asking silly questions and getting silly code
 
-It sure aint NOT for:
+It sure AINT for:
 - Production systems (please god no)
 - Your thesis (unless your advisor is cool)
 - Predicting the future
@@ -298,7 +298,7 @@ It sure aint NOT for:
 
 ---
 
-## 📚 FILES YOU MIGHT ACTUALLY READ
+## 📚 FILES YOU MIGHT ACTUALLY READ ( just run it )
 
 - `START_HERE.md` - The boring normal README
 - `QUICKSTART.md` - How to actually use this thing
@@ -310,7 +310,7 @@ It sure aint NOT for:
 
 ## 🎪 INTERACTIVE MODE (For the Lazy)
 
-Don't wanna type commands? Fine.
+Don't wanna type commands? Fine. The demo sucks and is broken.
 
 ```bash
 python3 interactive_demo.py
@@ -327,6 +327,23 @@ If you made it this far in the README, you're either:
 2. Very thorough
 3. A stalker
 4. All of the above
+5. ....
+6. .....
+loading [█         ]
+loading [██        ]
+loading [███       ]
+loading [████      ]
+loading [█████     ]
+loading [██████    ]
+loading [███████   ]
+loading [████████  ]
+loading [█████████ ]
+loading [██████████]
+
+7. ......
+8. .......
+9. ........
+10. .........
 
 **Congrats!** Now go make some silly code scenarios, or make the code better i don't know. 
 
