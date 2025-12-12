@@ -40,7 +40,7 @@ def main(text, output_format, category, detail, seed, no_color):
     
     Examples:
     
-      wdlic "A guy flexes to impress girls at the gym"
+      wdlic "3 Implies Balance"
       
       wdlic "Calculate trajectory of a ball at 20 m/s at 45 degrees" --format python
       
