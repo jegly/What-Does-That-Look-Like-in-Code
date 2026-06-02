@@ -8,7 +8,7 @@ rich==13.7.0
 click==8.1.7
 
 # Testing
-pytest==7.4.3
+pytest==9.0.3
 hypothesis==6.92.1
 
 # Data handling
